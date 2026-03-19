@@ -1,0 +1,14 @@
+# when you create new or checkout yo must first
+terraform init
+
+# format your configuration for readability and consistency
+terraform fmt
+
+# make sure configuration is syntactically valid
+terraform validate
+
+# Apply the configuration file to build out
+terraform apply
+
+# Inspect show working state
+terraform show
